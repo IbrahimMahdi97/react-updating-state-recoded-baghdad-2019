@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import ClickityCLick from './components/ClickityCLick';
+import ClickityClick from './components/ClickityClick';
 
 ReactDOM.render(
-  <ClickityCLick />,
+  <ClickityClick />,
   document.getElementById('root')
 );
