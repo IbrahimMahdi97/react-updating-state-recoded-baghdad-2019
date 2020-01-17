@@ -7,7 +7,6 @@ class ClickityClick extends React.Component {
     super();
     this.state = {
       hasBeenClicked: false
-      
     }
   }
     
@@ -15,7 +14,6 @@ class ClickityClick extends React.Component {
       this.setState(
         {
           hasBeenClicked: true
-          
         }
         )
     }
