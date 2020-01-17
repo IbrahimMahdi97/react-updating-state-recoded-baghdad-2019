@@ -6,8 +6,8 @@ class ClickityClick extends React.Component {
   constructor() {
     super();
     this.state = {
-      hasBeenClicked: false
-      currentTheme
+      hasBeenClicked: false,
+      currentTheme: 'blue',
     }
   }
     
@@ -15,7 +15,7 @@ class ClickityClick extends React.Component {
       this.setState(
         {
           hasBeenClicked: true
-          
+          currentTheme: blue,
         }
         )
     }
